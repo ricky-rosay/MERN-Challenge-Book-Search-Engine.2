@@ -10,6 +10,11 @@ const { ApolloServer } = require("apollo-server-express");
 // calling to schema
 const { typeDefs, resolvers } = require("./schemas");
 
+// adding authentication middleware 
+
+const { authMiddleware } = require("./utils/auth");
+
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
