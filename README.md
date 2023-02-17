@@ -6,7 +6,7 @@ This application allows users to search for new books from Google's Book API. Us
 ## Heroku URL
 https://cryptic-temple-35684.herokuapp.com/
 
-*works locally and build is successful but does not open anything. Will fix at a later date.
+*works locally and build is successful (see screenshot) but does not open anything. Will fix at a later date.
 ## Installation
 
 ```
